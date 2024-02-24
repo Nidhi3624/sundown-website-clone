@@ -7,7 +7,7 @@ var a = document.querySelector("#elem-con");
 var fixed = document.querySelector("#fixed-image");
 a.addEventListener("mouseenter", function(){
     fixed.style.display = "block"
-});
+});     
 a.addEventListener("mouseleave", function(){
     fixed.style.display = "none"
 });
